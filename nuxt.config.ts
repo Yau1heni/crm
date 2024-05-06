@@ -20,6 +20,10 @@ export default defineNuxtConfig({
     }
     }]
   ],
+  app: {
+    baseURL: '/crm/',
+    buildAssetsDir: 'assets',
+  },
   shadcn: {
     prefix: 'Ui',
     componentDir: './components/ui'
